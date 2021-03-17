@@ -5,7 +5,6 @@
  * Sharing buttons for Russian and worldwide social networks.
  *
  * @requires jQuery
- * @author Artem Sapegin
  * @copyright 2014 Artem Sapegin (sapegin.me)
  * @license MIT
  */
@@ -145,8 +144,8 @@
             popupWidth: 700,
             popupHeight: 500
         },
-        pinterest: {
-            counterUrl: protocol + '//api.pinterest.com/v1/urls/count.json?url={url}&callback=?',
+        whatsapp: {
+            counterUrl: protocol + 'https://api.whatsapp.com/v1/urls/count.json?url={url}&callback=?',
             convertNumber: function(data) {
                 return data.count;
             },

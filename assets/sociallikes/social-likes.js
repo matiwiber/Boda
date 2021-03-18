@@ -144,15 +144,15 @@
             popupWidth: 700,
             popupHeight: 500
         },
-        whatsapp: {
-            counterUrl: protocol + 'https://api.whatsapp.com/v1/urls/count.json?url={url}&callback=?',
-            convertNumber: function(data) {
-                return data.count;
-            },
-            popupUrl: protocol + '//pinterest.com/pin/create/button/?url={url}&description={title}',
-            popupWidth: 630,
-            popupHeight: 270
-        }
+        // whatsapp: {
+        //     counterUrl: protocol + 'https://api.whatsapp.com/v1/urls/count.json?url={url}&callback=?',
+        //     convertNumber: function(data) {
+        //         return data.count;
+        //     },
+        //     popupUrl: protocol + '//pinterest.com/pin/create/button/?url={url}&description={title}',
+        //     popupWidth: 630,
+        //     popupHeight: 270
+        // }
     };
 
 
